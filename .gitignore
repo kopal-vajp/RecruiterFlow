@@ -1,0 +1,41 @@
+# Dependencies & Virtual Environments
+node_modules/
+venv/
+.venv/
+env/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases
+*.db
+recruiter_bot.db
+detective.db
+
+# Secrets & Environment Variables (keep templates)
+.env
+.env.local
+.env.*.local
+*.local
+!.env.example
+
+# Build & Test Outputs
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+test-results/
+playwright-report/
+blob-report/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
